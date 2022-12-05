@@ -1,4 +1,4 @@
-select * from homework.users;
+
 insert into homework.users (id, email, password, createdAt, updatedAt, role)
 values (1, "Petrenko@gmail.com", "Password123", CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, "user");
 insert into homework.car_brands (id, title, createdAt, updatedAt)
