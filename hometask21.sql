@@ -17,6 +17,8 @@ select * from homework.users;
 insert into homework.expenses (id, carId, repotedAt, mileage, liters, totalCost, CreatedAt, updatedAt)
 values (1, 1, "2022-11-18", 18, 27, 1000, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 select * from homework.expenses;
-update homework.expenses
-set mileage = 17, liters = 30;
+select * from homework.expenses;
+set mileage = 30, liters = 40;
+select * from homework.expenses;
+set mileage = 90, liters = 105;
 select * from homework.expenses;
